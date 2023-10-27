@@ -4,39 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="inscription.css" rel="stylesheet">
+    <link href="assets/css/inscription.css" rel="stylesheet">
     <title>Inscription</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
 </head>
     <body>
-        <div>
-            <form name="inscription">
-                <p>Je m'inscris</p>
+        <div id="formulaire">
+            <form name="inscription" method="post">
+                <div id="titre">
+                    <p>Je m'inscris</p>
+                </div>
     
-                <label for="nom" >Nom d'utilisateur</label>
-                <br>
-                <input type="text" name="nom" id="nom">
+                <div class="champ">
+                    <label for="nom" >Nom d'utilisateur</label>
+                    <br>
+                    <input type="text" name="nom" id="nom">
+                </div>
 
-                <br>
-                <label for="email" >Email</label>
-                <br>
-                <input type="text" name="email" id="email">
+                <div class="champ">
+                    <label for="email" >Email</label>
+                    <br>
+                    <input type="text" name="email" id="email">
+                </div>
 
-                <br>
-                <label for="mdp" >Mot de passe</label>
-                <br>
-                <input type="text" name="mdp" id="mdp">
+                <div class="champ">
+                    <label for="mdp" >Mot de passe</label>
+                    <br>
+                    <input type="text" name="mdp" id="mdp">
+                </div>
 
-                <br>
-                <label for="mdp2" >Répéter le mot de passe</label>
+                <div class="champ">
+                    <label for="mdp2" >Répéter le mot de passe</label>
+                    <br>
+                    <input type="text" name="mdp2" id="mdp2">
+                </div>
 
-                <br>
-                <input type="text" name="mdp2" id="mdp2">
-
-                <br>
-                <br>
-                <input type="submit" value="S'inscrire">
+                <div id="submit">
+                    <br>
+                    <input type="submit" value="S'inscrire">
+                </div>
             </form>
         </div>
     </body>
