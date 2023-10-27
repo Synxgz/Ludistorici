@@ -1,0 +1,16 @@
+body {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+input[type=submit]
+{
+    border: solid;
+    border-radius: 5px;
+    margin-top: 50em;
+}
+
+#formulaire {
+    border: solid;
+}
