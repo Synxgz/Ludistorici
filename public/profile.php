@@ -9,16 +9,33 @@
     <title>Document</title>
 </head>
 <body>
-    <img id="p_banner" src="">
-    <div id="p_main_body">
+    <img draggable="false" id="p_banner" src="assets/img/p_banner1.jpg">
+    <div id="p_upper_body">
+
+        <button id="p_param" ><img src="assets/img/p_parameters.svg"></button>
         <div id="p_profile_info">
-            <img id="p_profile" src="">
+            <img draggable="false" id="p_back_profile_pic" src="assets/img/p_logoBack.png">
+            <img draggable="false" id="p_profile_pic" src="assets/img/p_base_profile.png">
             <h2>Nom</h2>
             <div>
-                <p>Abonnés : </p>
-                <p>Articles : </p>
+                <p>Abonnés : ??</p>
+                <p>Articles : ??</p>
             </div>
         </div>
+    </div>
+    <div id="p_central_body">
+        <section class="p_section">
+            <h2 class="p_section_title">Fil D'abonnement</h2>
+            <p>Aucune publication</p>
+        </section>
+        <section class="p_section">
+            <h2 class="p_section_title">Commentaires Postés</h2>
+            <p>Aucune publication</p>
+        </section>
+        <section class="p_section">
+            <h2 class="p_section_title">Articles Postés</h2>
+            <p>Aucune publication</p>
+        </section>
     </div>
 </body>
 </html>
